@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My first portfolio">
+  <title>Portfolio</title>
+  <link rel="icon" href="img/favicon.png">
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- my own css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="#" alt="Daichi Portfolio">Daichi</a></h1>
+    <nav class="navlist">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </nav>
+    <div class="hamburgerbutton">
+      <input type="checkbox" id="common">
+      <label for="common" class="menu-btn"><span></span></label>
+    </div>
+  </header>
+  <main>
+    <div class="home container">
+      <div class="home-flex1">
+        <div class="hometext">
+          <h2>Hi👋 I'm Daichi</h2>
+          <h3>Self-taught Frontend developer<br>and travel lover</h3>
+          <p>I am a passionate japanese self-taught Frontend Developer based in Germany 🇩🇪 </p>
+        </div>
+        <div class="homeimage">
+          <img src="img/Homeimage.png">
+        </div>
+        <div class="homeflexspacer">
+
+        </div>
+        <div class="homeskill">
+          <p>Skillset</p>
+          <div class="iconlist">
+            <div class="icon">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-sass"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-bootstrap"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about container" id="about">
+      <div class="about-flex1">
+        <div class="aboutimage">
+          <img src="img/Aboutmeimage.png">
+        </div>
+        <div class="abouttext">
+          <h2>About me</h2>
+          <h3>Fully self-taught Frontend developer</h3>
+          <p>I have been learning to code for about 7 months. The languages I can use are HTML, CSS, SASS, Bootstrap, Javascript, React, a little bit of Firebase. I am now lookig for Frontend position where I can develop myself as a professional dfrontend developer💻.</p>
+          <div class="divforCVbutton">
+            <a class="purplebutton" href="CV in German 17.04.2023.pdf" download>CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="work container" id="work">
+      <h2>My projects</h2>
+      <div class="work-flex">
+        <div class="workimage">
+          <img src="img/second react project.jpg">
+          <div class="mask">
+            <div class="caption"> Mini E-commerce website</div>
+          </div>
+        </div>
+        <div class="worktext">
+          <h3>Mini E-commerce website</h3>
+          <p>Simple E-commerce website with React.js<br>Main concepts used are<br><span style="color:rgb(202, 77, 251)">useContext, Swiper.js, React Parallax, Pagination with filter, Intersection Observer API,Accordion, React Routing, Other React hooks (useRef, useHistory, useEffect, useState)</span></p>
+          <div class="language-flex">
+            <div class="icon">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+          </div>
+          <div class="sourcelink-flex">
+            <a class="purplebutton" href="https://github.com/DaichiEvanijo/react-portfolio2">Code</a>
+            <a class="purplebutton" href="https://daichievanijo.github.io/react-portfolio2/">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="work-flex">
+        <div class="workimage">
+          <img src="img/first react project.jpg">
+          <div class="mask">
+            <div class="caption"> React CRUD blog website</div>
+          </div>
+        </div>
+        <div class="worktext">
+          <h3>Simple React blog posting app</h3>
+          <p>CRUD operation of RestAPI by json-server.<br>Main concepts used are<br><span style="color:rgb(202, 77, 251)">useContext, Custom hook, Canceltoken,<br>React Routing, Other React hooks (useRef, useHistory, useEffect, useState)</p>
+          <div class="language-flex">
+            <div class="icon">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+          </div>
+          <div class="sourcelink-flex">
+            <a class="purplebutton" href="https://github.com/DaichiEvanijo/react-portfolio1.git">Code</a>
+            <a class="purplebutton" href="https://github.com/DaichiEvanijo/react-portfolio1.git">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="work-flex">
+        <div class="workimage">
+          <img src="img/gray.jpg">
+          <div class="mask">
+            <div class="caption">Coming soon !!!!</div>
+          </div>
+        </div>
+        <div class="worktext">
+          <h3>Coming soon !!</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, eligendi? Quam consequatur minima facere omnis esse. Porro pariatur et sint, esse optio excepturi nam earum voluptatem ducimus consequuntur dolor similique! Porro, eaque iusto dignissimos quis architecto ipsam modi ad tempora.</p>
+          <div class="language-flex">
+            <div class="icon">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-bootstrap"></i>
+            </div>
+          </div>
+          <div class="sourcelink-flex">
+            <a class="purplebutton" href="#">Code</a>
+            <a class="purplebutton" href="#">Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact container" id="contact">
+      <h2>Contact Form</h2>
+      <div class="contact-flex">
+        <form class="form">
+          <div class="name">
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="input your name here" required>
+          </div>
+          <div class="country">
+            <label>Country:</label>
+            <select id="country">
+              <option value="Germany">Germany</option>
+              <option value="The Netherlands">The Netherlands</option>
+              <option value="Austria">Austria</option>
+              <option value="The UK">The UK</option>
+              <option value="Turkey">Turkey</option>
+            </select>
+          </div>
+          <div class="email">
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="Input email here" required>
+          </div>
+          <div class="sentence">
+            <label>Inquiry:</label>
+            <textarea id="inquiry" cols="5" rows="10" placeholder="Input your inquiry here" required></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+        <div class="contactright">
+          <p>Follow my socials</p>
+            <div class="sociallist">
+              <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
+              <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.tiktok.com/"><i class="bi bi-tiktok"></i></a> 
+            </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    ©2023 | Designed & coded by Daichi (aka Ninja)
+  </footer>
+  <script src="js/main.js"></script>
+  <!-- <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+    import {getDatabase, ref, set, get, child} from "https://www.gstatic.com/firebasejs/9.21.0/firebase-database.js"; 
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAdN_mGnOUUpGXUdPFCNFfJTPw3NBAXxCk",
+      authDomain: "portfolio1-d76e1.firebaseapp.com",
+      databaseURL: "https://portfolio1-d76e1-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "portfolio1-d76e1",
+      storageBucket: "portfolio1-d76e1.appspot.com",
+      messagingSenderId: "959228342374",
+      appId: "1:959228342374:web:bd152bfd49089ec2a93da7"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    // initialize service
+    const db = getDatabase(app);
+
+    // adding data
+    document.querySelector(".form").addEventListener('submit',(e) => {
+      e.preventDefault();
+      set(ref(db, 'user/' + document.getElementById("country").value), {
+        name:document.getElementById("name").value,
+        country:document.getElementById("country").value,
+        email:document.getElementById("email").value,
+        inquiry:document.getElementById("inquiry").value
+      });
+      document.querySelector(".form").reset();
+      alert('Inquiry sent !!');
+    });
+  </script> -->
+</body>
+</html>
